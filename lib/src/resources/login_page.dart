@@ -33,12 +33,12 @@ class _LoginState extends State<LoginPage> {
               child: Container(
                 width: 70,
                 height: 70,
-                padding: EdgeInsets.all(17),
+                padding: EdgeInsets.all(1),
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   color: Colors.grey,
                 ),
-                child: FlutterLogo(),
+                child: Image.asset('assets/login.png'),
               ),
             ),
             Padding(
